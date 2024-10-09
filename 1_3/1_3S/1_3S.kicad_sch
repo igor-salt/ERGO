@@ -1241,34 +1241,16 @@
 		(uuid "6d01dfd5-552f-42d8-af4a-1985f4891166")
 	)
 	(junction
-		(at 106.68 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e759763-be61-4054-8289-47e9731f71d7")
-	)
-	(junction
 		(at 137.16 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d810e12-4467-47b3-bae6-6fb0ad06ef4c")
 	)
 	(junction
-		(at 119.38 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c022f14-8db3-4256-add3-73c5cd49ab7f")
-	)
-	(junction
 		(at 134.62 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91e6a3df-9fc3-4eac-a7a4-4efb58dc0970")
-	)
-	(junction
-		(at 119.38 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2bfc8ed-d3f5-4dd9-9f28-e05a0761d37d")
 	)
 	(junction
 		(at 149.86 71.12)
@@ -1331,18 +1313,6 @@
 		(uuid "e7cab8f3-d68b-4c36-bccb-1ea185d2bd8d")
 	)
 	(junction
-		(at 119.38 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8c4d50d-8319-44b1-a062-c96b4f4e363b")
-	)
-	(junction
-		(at 106.68 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea0bcebf-c360-476c-9a5c-05b392c7bb66")
-	)
-	(junction
 		(at 149.86 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1382,6 +1352,10 @@
 		(at 25.4 46.99)
 		(uuid "b6ffd2eb-3217-45bb-b561-cf3dfdfcf63d")
 	)
+	(no_connect
+		(at 25.4 31.75)
+		(uuid "d8194f46-5f33-4ebc-b747-cfe10cdc7647")
+	)
 	(wire
 		(pts
 			(xy 152.4 20.32) (xy 152.4 30.48)
@@ -1411,16 +1385,6 @@
 			(type default)
 		)
 		(uuid "04a5fd2e-dba3-4dc7-92bb-3a10a335607c")
-	)
-	(wire
-		(pts
-			(xy 116.84 63.5) (xy 119.38 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "075e9ee8-3b13-41b9-a994-d3242d7653d7")
 	)
 	(wire
 		(pts
@@ -1534,16 +1498,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 38.1) (xy 134.62 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2285d119-f0e8-48f9-ba30-16729fe6b1b8")
-	)
-	(wire
-		(pts
 			(xy 180.34 71.12) (xy 195.58 71.12)
 		)
 		(stroke
@@ -1604,36 +1558,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 30.48) (xy 119.38 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "327ab427-9fc6-4020-b86a-aff1715c45d5")
-	)
-	(wire
-		(pts
-			(xy 119.38 46.99) (xy 119.38 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34d805dd-4ea0-443e-9040-0ee1f9e1fbc7")
-	)
-	(wire
-		(pts
-			(xy 104.14 71.12) (xy 119.38 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3988d4fa-9d00-4315-9d4f-34c46f2f26e0")
-	)
-	(wire
-		(pts
 			(xy 180.34 30.48) (xy 180.34 33.02)
 		)
 		(stroke
@@ -1654,7 +1578,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 54.61) (xy 119.38 54.61)
+			(xy 104.14 54.61) (xy 134.62 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1691,16 +1615,6 @@
 			(type default)
 		)
 		(uuid "4c92cba2-b791-489b-802f-4d2c96cf89e1")
-	)
-	(wire
-		(pts
-			(xy 119.38 63.5) (xy 119.38 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e07ecd3-1671-4d52-a013-6e6fcd860cce")
 	)
 	(wire
 		(pts
@@ -1781,16 +1695,6 @@
 			(type default)
 		)
 		(uuid "7403200a-e081-49e9-a5ca-2a53e7730546")
-	)
-	(wire
-		(pts
-			(xy 116.84 30.48) (xy 119.38 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7502199d-686c-46fc-b440-c9a9491a6c2a")
 	)
 	(wire
 		(pts
@@ -1884,7 +1788,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 38.1) (xy 119.38 38.1)
+			(xy 104.14 38.1) (xy 134.62 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1894,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 71.12) (xy 134.62 71.12)
+			(xy 104.14 71.12) (xy 134.62 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2004,26 +1908,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 54.61) (xy 134.62 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e55e68-bd3e-40d9-94ba-708aefee27d8")
-	)
-	(wire
-		(pts
-			(xy 106.68 46.99) (xy 106.68 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac65c0af-de5a-4867-8e06-103089a6610c")
-	)
-	(wire
-		(pts
 			(xy 193.04 46.99) (xy 195.58 46.99)
 		)
 		(stroke
@@ -2114,16 +1998,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 30.48) (xy 106.68 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccdefbdc-a2cb-4350-bfe8-cde5f760ffb7")
-	)
-	(wire
-		(pts
 			(xy 177.8 46.99) (xy 180.34 46.99)
 		)
 		(stroke
@@ -2174,16 +2048,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 46.99) (xy 119.38 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa850ba-2715-4362-b867-e84a45e9ea46")
-	)
-	(wire
-		(pts
 			(xy 162.56 30.48) (xy 165.1 30.48)
 		)
 		(stroke
@@ -2231,16 +2095,6 @@
 			(type default)
 		)
 		(uuid "e4bfe7d3-3625-4334-8e0b-2ade80203b8f")
-	)
-	(wire
-		(pts
-			(xy 106.68 20.32) (xy 106.68 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1671d9-83c1-4f37-9f6e-fa13fcaabac8")
 	)
 	(wire
 		(pts
@@ -2383,28 +2237,6 @@
 		(uuid "2c33f285-639f-4eee-8824-5879850e3141")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 182.88 14.9347 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C0"
-		(shape input)
-		(at 106.68 20.32 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31f058c2-59c2-40ef-bae7-76b968670a31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 14.9347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,28 +2440,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C0"
-		(shape input)
-		(at 25.4 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ba10efa-048b-4730-a7d3-7a34e04eea8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.0147 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3552,94 +3362,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Two:D_Small")
-		(at 119.38 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bd84f7d-abbe-4300-8def-a245fb7af7c8")
-		(property "Reference" "D13"
-			(at 121.92 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 121.92 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Two:Diode_TH_SMD_DUAL"
-			(at 119.38 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21b1e1fa-5126-4e01-bb42-31471c210b73")
-		)
-		(pin "2"
-			(uuid "ab621ce5-cf12-48a2-9e22-0d4ccf852f1a")
-		)
-		(instances
-			(project "pcb"
-				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Two:SW_SPST")
 		(at 187.96 80.01 0)
 		(mirror y)
@@ -4002,94 +3724,6 @@
 	)
 	(symbol
 		(lib_id "Two:D_Small")
-		(at 119.38 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d91e461-aab8-4529-b118-78e8222e242e")
-		(property "Reference" "D1"
-			(at 121.92 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 121.92 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Two:Diode_TH_SMD_DUAL"
-			(at 119.38 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 119.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 119.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb58d724-6981-42b2-a7c8-ed6de85b3f34")
-		)
-		(pin "2"
-			(uuid "6a2fe0e7-7604-4fe0-9ec0-8da115eba76e")
-		)
-		(instances
-			(project "pcb"
-				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Two:D_Small")
 		(at 165.1 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4323,162 +3957,6 @@
 			(project "pcb"
 				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Two:D_Small")
-		(at 119.38 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c39c57e-9d5e-431a-b5db-735b7db406eb")
-		(property "Reference" "D7"
-			(at 121.92 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 121.92 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Two:Diode_TH_SMD_DUAL"
-			(at 119.38 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43eba2f4-fcf0-411c-8c18-eb84ea188af9")
-		)
-		(pin "2"
-			(uuid "80c58696-854a-4cfc-83dc-976165196b85")
-		)
-		(instances
-			(project "pcb"
-				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Two:SW_SPST")
-		(at 111.76 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70b9c034-f3a1-4e74-835c-d6b64e46c6c2")
-		(property "Reference" "SW1"
-			(at 111.76 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 111.76 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Two:KS-27_KS-33_Hotswap_1U_DUAL"
-			(at 111.76 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 111.76 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39e70ce5-e166-495f-884d-bdebe899519b")
-		)
-		(pin "2"
-			(uuid "1fee2ba2-27e3-4b21-88fa-8720d0db9a44")
-		)
-		(instances
-			(project "pcb"
-				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5283,74 +4761,6 @@
 	)
 	(symbol
 		(lib_id "Two:SW_SPST")
-		(at 111.76 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a387220e-93b5-4d4a-9698-6da4d450cf7b")
-		(property "Reference" "SW7"
-			(at 111.76 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Two:KS-27_KS-33_Hotswap_1U_DUAL"
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa2cb35f-b972-4185-8b7f-ee96b8bc2624")
-		)
-		(pin "2"
-			(uuid "fc0b39cc-8013-439c-918d-c82f3003be8b")
-		)
-		(instances
-			(project "pcb"
-				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Two:SW_SPST")
 		(at 157.48 30.48 0)
 		(mirror y)
 		(unit 1)
@@ -5794,74 +5204,6 @@
 			(project ""
 				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
 					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Two:SW_SPST")
-		(at 111.76 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc5464dd-62c1-4ac3-a23b-2ae41c61db33")
-		(property "Reference" "SW13"
-			(at 111.76 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 111.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Two:KS-27_KS-33_Hotswap_1U_DUAL"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "246706cb-0ca2-4a25-9f9a-90f118d5c3d7")
-		)
-		(pin "2"
-			(uuid "b26eae1a-204e-463e-ba82-b398c246cac6")
-		)
-		(instances
-			(project "pcb"
-				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
-					(reference "SW13")
 					(unit 1)
 				)
 			)
